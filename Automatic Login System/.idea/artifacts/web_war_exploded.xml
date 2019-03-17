@@ -1,0 +1,20 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="web:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/web_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="Automatic Login System/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Automatic Login System" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="A:/AUTO_LOGIN/c3p0-0.9.1.2.jar" />
+          <element id="file-copy" path="A:/AUTO_LOGIN/commons-dbutils-1.4.jar" />
+          <element id="file-copy" path="A:/AUTO_LOGIN/jstl.jar" />
+          <element id="file-copy" path="A:/AUTO_LOGIN/mysql-connector-java-8.0.15.jar" />
+          <element id="file-copy" path="A:/AUTO_LOGIN/standard.jar" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
